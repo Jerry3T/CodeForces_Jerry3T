@@ -12,7 +12,7 @@ int main() {
   
   while (init > 0) {
 
-		int count = 0;
+	int count = 0;
   	
   	string temp;
   	
