@@ -18,21 +18,21 @@ int main() {
   	
   	cin >> temp;
 
-		for (int i = 0; i < temp.length(); i++) {
+	for (int i = 0; i < temp.length(); i++) {
 
-			char c = temp[i];
+		char c = temp[i];
 
-			if (c == '+') {
+		if (c == '+') {
 
-				count += 1;
+			count += 1;
 
-			} else if (c == '-') {
+		} else if (c == '-') {
 
-				count -= 1;
-
-			}
+			count -= 1;
 
 		}
+
+	}
 
   	if (count == 2) {
   		
