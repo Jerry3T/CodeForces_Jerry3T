@@ -16,7 +16,7 @@ int main() {
 
 		char low = init.at(i);
 
-		if (low == 'o' or low == 'a' or low == 'y' or low == 'e' or low == 'u') {
+		if (low == 'o' or low == 'a' or low == 'y' or low == 'e' or low == 'u' or low == 'i') {
 
 			init.erase(init.begin() + i);
 			i -= 1;
