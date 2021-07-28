@@ -1,6 +1,5 @@
 #include<iostream>
 #include<string>
-#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -10,11 +9,13 @@ int main() {
 
 	cin >> init;
 
-	transform(init.begin(), init.end(), init.begin(), ::tolower);
+	for (int i = 0; i < init.length(); i++) {
+		init[i] = ::tolower(init[i]);
+	}
 
 	for (int i = 0; i < init.length(); i++) {
 
-		char low = init.at(i);
+		char low = init[i];
 
 		if (low == 'o' or low == 'a' or low == 'y' or low == 'e' or low == 'u' or low == 'i') {
 
