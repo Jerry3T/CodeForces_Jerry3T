@@ -1,7 +1,5 @@
 #include<iostream>
 #include<string>
-#include<string.h>
-#include <algorithm>
 
 using namespace std;
 
@@ -13,13 +11,13 @@ int main() {
 
 	cin >> one >> two;
 
-	for_each(one.begin(), one.end(), [](char & c){
-    	c = tolower(c);
-	});
+	for (int i = 0; i < one.length(); i++) {
+		one[i] = ::tolower(one[i]);
+	}
 
-	for_each(two.begin(), two.end(), [](char & c){
-    	c = tolower(c);
-	});
+	for (int i = 0; i < two.length(); i++) {
+		two[i] = ::tolower(two[i]);
+	}
 
 	if (one  > two) {
 
