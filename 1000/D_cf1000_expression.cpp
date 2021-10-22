@@ -14,12 +14,8 @@ int test(int a, int b, int c) {
 
             num = (a+b) * c;
 
-        } else if (b != c && b != a && c <= a) {
+        } else if (c >= 1 && a > 1) {
 
-            num = a * (b+c);
-
-        } else if (c == 1 && a > 1) {
-            
             num = a * (b+c);
 
         } else num = a + b + c;
