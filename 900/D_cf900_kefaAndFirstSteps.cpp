@@ -17,17 +17,6 @@ int main() {
 
         if (num >= temp) {
 
-            // cout << "\n";
-            // cout << temp;
-            // cout << "\n";
-            // cout << "\n";
-            // cout << num;
-            // cout << "\n";
-            // cout << "\n";
-            // cout << count;
-            // cout << "\n";
-            // cout << "\n";
-
             count += 1;
 
         } else if (count > finalCount) {
